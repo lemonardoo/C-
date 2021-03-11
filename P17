@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    char name1[41],name2[41],date[41];
+    cout<<endl<<"Please input your friend's name:";
+    cin>>name1;
+    cout<<endl<<"Please input your name:";
+    cin>>name2;
+    cout<<endl<<"Please input the date:";
+    cin>>date;
+    cout<<endl<<"========================================"<<endl;
+    cout<<"My dear"<< name1<<","<<endl;
+    cout<<"Happy birthday to you!"<<endl;
+    cout<<"                     yours,"<<endl;
+    cout<<"                     "<<name2<<endl;
+    cout<<"                     "<<date<<endl;
+    cout<<"========================================"<<endl;
+    return 0;
+}
