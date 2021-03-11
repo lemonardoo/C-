@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    double a,b;
+    double h;
+    double sum;
+    int n;
+    int i;
+    a=-1.0;
+    b=1.0;
+    n=200;
+    h=(b-a)/n;
+    sum=(sin(a)+exp(a)+sin(b)+exp(b))/2;
+    for(i=1;i<n;i=i+1)
+        sum=sum+sin(a+i*h)+exp(a+i*h);
+    sum=sum*h;
+    cout<<"The result is "<<sum<<endl;
+    return 0;
+}
