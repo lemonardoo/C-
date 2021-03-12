@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+double area(double a,double b)
+{
+    double s=a*b;
+    return s;
+}
+int main()
+{
+    double a,b,s;
+    cout<<"Please input 矩形的长与宽"<<endl;
+    cin>>a>>b;
+    s=area(a, b);
+    cout<<"矩形的面积为"<<s<<endl;
+    return 0;
+}
