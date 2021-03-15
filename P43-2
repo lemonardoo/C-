@@ -1,0 +1,15 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    double x,y,num1,num2,num3,result;
+    cout<<"请输入两个角度值：";
+    cin>>x>>y;
+    num1=fabs(x)+fabs(y);
+    num2=fabs(x+y);
+    num3=cos(num2);
+    result=sin(num1)/sqrt(num3);
+    cout<<result<<endl;
+    return 0;
+}
